@@ -1,0 +1,278 @@
+{
+  "en-US": {
+    "movieDetails": {
+      "overview": "Overview",
+      "genre": "Genres",
+      "releaseDate": "Release Date",
+      "spokenLanguage": "Spoken Language",
+      "rating": "Rating",
+      "budget": "Budget",
+      "runtime": "Runtime",
+      "revenue": "Revenue",
+      "newRating": "Rate the film",
+      "RatingLabel": "Your rating:",
+      "cast": "Cast",
+      "invia": "Send"
+    },
+    "seriesDetails": {
+      "overview": "Overview", 
+      "genre": "Genres",
+      "releaseDate": "Release Date",
+      "spokenLanguage": "Spoken Language",
+      "rating": "Rating",
+      "firstEpisode": "First episode",
+      "lastEpisode": "Last episode",
+      "numberOfEpisodes": "Number of episodes",
+      "numberOfSeasons": "Number of seasons",
+      "status": "Status",
+      "newRating": "Rate the TV series",
+      "RatingLabel": "Your rating:",
+      "cast": "Cast",
+      "invia": "Send"
+    },
+    "searchResults": {
+      "title": "Search Results"
+    },
+    "movieCard": {
+      "year": "Year"
+    },
+    "navbar": {
+      "searchPlaceholder": "Search...",
+      "home": "Home",
+      "movies": "Movies",
+      "series": "Series",
+      "categories": {
+        "titoli": [
+          {
+            "name": "Recently Released Movies",
+            "id": 1
+          },
+          {
+            "name": "Most Popular",
+            "id": 2
+          },
+          {
+            "name": "Most Watched Series",
+            "id": 3
+          },
+          {
+            "name": "Most Popular Series",
+            "id": 4
+          }
+        ],
+        "film": [
+          {
+            "name": "Recently Released",
+            "id": 1
+          },
+          {
+            "name": "Most Popular",
+            "id": 2
+          },
+          {
+            "name": "Coming Soon",
+            "id": 3
+          }
+        ],
+        "serie": [
+          {
+            "name": "Highlighted Today",
+            "id": 1
+          },
+          {
+            "name": "Most Popular",
+            "id": 2
+          },
+          {
+            "name": "Top rated",
+            "id": 3
+          }
+        ]
+      }
+    }
+  },
+  "it-IT": {
+    "movieDetails": {
+      "overview": "Descrizione",
+      "genre": "Generi",
+      "releaseDate": "Data di uscita",
+      "spokenLanguage": "Lingua parlata",
+      "rating": "Valutazione",
+      "budget": "Budget",
+      "runtime": "Durata",
+      "revenue": "Incasso",
+      "newRating": "Dai un voto al film",
+      "RatingLabel": "La tua valutazione:",
+      "cast": "Cast",
+      "invia": "Invia"
+    },
+    "seriesDetails": {
+      "overview": "Descrizione",
+      "genre": "Generi",
+      "releaseDate": "Data di uscita",
+      "spokenLanguage": "Lingua parlata",
+      "rating": "Valutazione",
+      "firstEpisode": "Primo episodio",
+      "lastEpisode": "Ultimo episodio",
+      "numberOfEpisodes": "Numero di episodi",
+      "numberOfSeasons": "Numero di stagioni",
+      "status": "Stato",
+      "newRating": "Dai un voto alla serie",
+      "RatingLabel": "La tua valutazione:",
+      "cast": "Cast",
+      "invia": "Invia"
+    },
+    "searchResults": {
+      "title": "Risultati della ricerca"
+    },
+    "movieCard": {
+      "year": "Anno"
+    },
+    "navbar": {
+      "searchPlaceholder": "Cerca...",
+      "home": "Home",
+      "movies": "Film",
+      "series": "Serie TV",
+      "categories": {
+        "titoli": [
+          {
+            "name": "Film usciti da poco",
+            "id": 1
+          },
+          {
+            "name": "Più Popolari",
+            "id": 2
+          },
+          {
+            "name": "SerieTV più viste",
+            "id": 3
+          },
+          {
+            "name": "SerieTV più popolari",
+            "id": 4
+          }
+        ],
+        "film": [
+          {
+            "name": "Usciti da poco",
+            "id": 1
+          },
+          {
+            "name": "Più Popolari",
+            "id": 2
+          },
+          {
+            "name": "Presto disponibili",
+            "id": 3
+          }
+        ],
+        "serie": [
+          {
+            "name": "Oggi in risalto",
+            "id": 1
+          },
+          {
+            "name": "Le più popolari",
+            "id": 2
+          },
+          {
+            "name": "Più votate",
+            "id": 3
+          }
+        ]
+      }
+    }
+  },
+  "es-ES": {
+    "movieDetails": {
+      "overview": "Visión general",
+      "genre": "Géneros",
+      "releaseDate": "Fecha de lanzamiento",
+      "spokenLanguage": "Lengua hablada",
+      "rating": "Clasificación",
+      "budget": "Presupuesto",
+      "runtime": "Duración",
+      "revenue": "Recaudación",
+      "newRating": "Califica la película",
+      "RatingLabel": "Tu clasificación:",
+      "cast": "Cast",
+      "invia": "Enviar"
+    },
+    "seriesDetails": {
+      "overview": "Visión general",
+      "genre": "Géneros",
+      "releaseDate": "Fecha de lanzamiento",
+      "spokenLanguage": "Lengua hablada",
+      "rating": "Clasificación",
+      "firstEpisode": "Primer episodio",
+      "lastEpisode": "Último episodio",
+      "numberOfEpisodes": "Número de episodios",
+      "numberOfSeasons": "Número de temporadas",
+      "status": "Estado",
+      "newRating": "Califica la serie de televisión",
+      "RatingLabel": "Tu clasificación:",
+      "cast": "Cast",
+      "invia": "Enviar"
+    },
+    "searchResults": {
+      "title": "Resultados de búsqueda"
+    },
+    "movieCard": {
+      "year": "Año"
+    },
+    "navbar": {
+      "searchPlaceholder": "Buscar...",
+      "home": "Inicio",
+      "movies": "Películas",
+      "series": "Series",
+      "categories": {
+        "titoli": [
+          {
+            "name": "Películas recién lanzadas",
+            "id": 1
+          },
+          {
+            "name": "Más populares",
+            "id": 2
+          },
+          {
+            "name": "Series más vistas",
+            "id": 3
+          },
+          {
+            "name": "Series más populares",
+            "id": 4
+          }
+        ],
+        "film": [
+          {
+            "name": "Recién lanzadas",
+            "id": 1
+          },
+          {
+            "name": "Más populares",
+            "id": 2
+          },
+          {
+            "name": "Próximamente",
+            "id": 3
+          }
+        ],
+        "serie": [
+          {
+            "name": "Destacadas hoy",
+            "id": 1
+          },
+          {
+            "name": "Más populares",
+            "id": 2
+          },
+          {
+            "name": "Los más valorados",
+            "id": 3
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+#app {
+  color: #3a6086;
+}
+
+a,
+a:visited {
+  padding: 10px;
+  font-size: large;
+  color: #2f4358;
+  
+}
+
+
+/* font */
+.poppins-regular{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Navigation */
+
+#nav a {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  opacity: 0.7;
+  transition: 0.2 ease color;
+}
+
+#nav a.router-link-active,
+#nav a:hover {
+  opacity: 1;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  opacity: 1 !important;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pagina{
+  margin-top: 20px ;
+  max-width: 1200px; /* Limita la larghezza massima del contenitore del carousel */
+}
+
+.details-general{
+  max-width: 1200px; /* Limita la larghezza massima del contenitore del carousel */
+  font-size: medium;
+}
+
+/* footer */ 
+footer{
+  padding: 60px 140px 10px 140px;
+  text-align: center;
+  color: white;
+}
+
+/* carousel barra di ricerca */
+.carousel-search-body{
+  padding: 40px;
+  background-color: rgba(76, 76, 76, 0.1); /* Sfondo semitrasparente */
+}
+
+.carousel-search-body-img{
+  height: 280px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* card */
+.card{
+  width: 100%;
+  max-width: 250px; /* Regola la larghezza massima delle card */
+  position: relative; /* Necessario per la visualizzazione dell'overlay */
+  transition: transform 0.3s;
+}
+
+.card-home-orizzontal{
+  width: 100%;
+  max-width: auto; /* Regola la larghezza massima delle card */
+  position: relative; /* Necessario per la visualizzazione dell'overlay */
+  transition: transform 0.3s;
+  border-radius:5px;
+
+}
+
+/* scritte che vanno e vengano*/ 
+.card-body {
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  opacity: 0; /* Nascondi di default */
+  transition: opacity 0.3s; /* Aggiungi una transizione */
+  pointer-events: none; /* Disabilita gli eventi del mouse */
+  background-color: rgba(0, 0, 0, 0.7); /* Sfondo semitrasparente */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white; /* Testo bianco per contrasto */
+  border-radius:8px;
+}
+
+.card-title{
+  margin-left: 8px;
+}
+
+.card:hover .card-body,
+.card-home-orizzontal:hover .card-body {
+  opacity: 1; /* Mostra al passaggio del mouse */
+  pointer-events: auto; /* Abilita gli eventi del mouse */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aggiungi un leggero ingrandimento al passaggio del mouse */
+}
+
+.card-home-orizzontal:hover{
+  transform: scale(1.02); /* Aggiungi un leggero ingrandimento al passaggio del mouse */
+  
+}
+.card-img-wrapper {
+  flex: 1;
+}
+
+/* Form */
+.form{
+  display:flex;
+  flex-direction: column;
+  max-width:400px;
+  margin: 0 auto;
+}
+
+.btn{
+  color: rgb(43, 77, 111);
+  padding: 6px;
+  border-radius: 5px;
+  border:none;
+}
+.btn-rating{
+  color: rgb(255, 255, 255);
+  padding: 6px;
+  border-radius: 5px;
+  border:none;
+}
+
+
+
+/* MovieDetails  */
+
+.img-MovieDetails{
+  width: 300px;
+  height: 400px;
+}
+
+.text-MovieDetails{
+  padding: 10px 100px 100px 10px ;
+}
+
+/* cast */
+.img-cast{
+  height: 195px;
+}
+
+.swiper-container {
+  width: 100%;
+}
+
+.swiper-wrapper{
+  padding: 5px 0 10px 5px;
+}
+
+/* scrollbar */ 
+.swiper-scrollbar {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: auto;
+  scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.1);
+}
+
+#h2-titoli{
+  text-align: center;
+}
+
+.card-img-top{
+  height: 290px;
+}
+@media (max-width: 1200px) {
+  .swiper-container {
+    max-width: 100%;
+  }
+  .card.SerieTv {
+    max-width: 120px;
+  }
+  .card-img-top {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-container {
+    max-width: 100%;
+  }
+  .card.SerieTv {
+    max-width: 100px;
+  }
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-container {
+    max-width: 100%;
+  }
+  .card.SerieTv {
+    max-width: 80px;
+  }
+  .card-img-top {
+    height: 120px;
+  }
+}
